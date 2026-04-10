@@ -1,3 +1,89 @@
+/* DIN Next W1G */
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_ultralight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_ultralightitalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_lightitalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_mediumitalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_bolditalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_heavy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_heavyitalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../assets/fonts/DIN Next W1G/dinnextw1g_blackitalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
