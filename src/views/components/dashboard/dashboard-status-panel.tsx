@@ -9,7 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/views/components/ui/
 
 export function DashboardStatusPanel() {
   return (
-    <Card className="gap-0 rounded-sm border border-gray-200 bg-white py-0 shadow-sm">
+    <Card className="gap-0 rounded-lg border border-gray-200 bg-white py-0 shadow-sm">
       <CardHeader className="items-center px-4 pt-4 pb-0 text-center">
         <CardTitle className="text-sm font-semibold text-slate-800">Status dos Veiculos</CardTitle>
       </CardHeader>

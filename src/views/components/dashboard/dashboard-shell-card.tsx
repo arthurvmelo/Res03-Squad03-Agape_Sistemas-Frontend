@@ -16,7 +16,7 @@ export function DashboardShellCard({
   children,
 }: DashboardShellCardProps) {
   return (
-    <Card className={`gap-0 rounded-sm border border-gray-200 bg-white py-0 shadow-sm ${className}`}>
+    <Card className={`gap-0 rounded-lg border border-gray-200 bg-white py-0 shadow-sm ${className}`}>
       <CardHeader className="px-4 pt-4 pb-2">
         <CardTitle className="text-sm font-semibold text-slate-800">{title}</CardTitle>
         {subtitle ? <p className="text-xs text-slate-400">{subtitle}</p> : null}

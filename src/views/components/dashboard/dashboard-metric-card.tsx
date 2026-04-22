@@ -7,7 +7,7 @@ type DashboardMetricCardProps = {
 
 export function DashboardMetricCard({ metric }: DashboardMetricCardProps) {
   return (
-    <Card className="gap-0 rounded-sm border border-gray-200 bg-white py-0 shadow-sm">
+    <Card className="gap-0 rounded-lg border border-gray-200 bg-white py-0 shadow-sm">
       <CardContent className="space-y-3 px-4 py-4">
         <p className="text-xs text-slate-400">{metric.label}</p>
         <p className="text-2xl font-bold tracking-tight text-slate-900">{metric.value}</p>

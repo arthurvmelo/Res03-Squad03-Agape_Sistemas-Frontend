@@ -39,7 +39,7 @@ export function DashboardFilterBar({
     <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:justify-end">
       <Button
         size="lg"
-        className="h-9 rounded-sm bg-[#1e293b] px-4 text-xs font-medium text-white hover:bg-[#1e293b]/95"
+        className="h-9 rounded-xl bg-[#1e293b] px-4 text-xs font-medium text-white hover:bg-[#1e293b]/95"
         onClick={onGenerateReport}
       >
         Gerar Relatorio
@@ -48,7 +48,7 @@ export function DashboardFilterBar({
       <Select value={filters.period} onValueChange={onPeriodChange}>
         <SelectTrigger
           size="default"
-          className="h-9 min-w-[148px] rounded-sm border-gray-200 bg-white text-xs text-slate-500"
+          className="h-9 min-w-[148px] rounded-lg border-gray-200 bg-white text-xs text-slate-500"
         >
           <SelectValue placeholder="Selecione o periodo" />
         </SelectTrigger>
@@ -64,7 +64,7 @@ export function DashboardFilterBar({
       <Select value={filters.vehicle} onValueChange={onVehicleChange}>
         <SelectTrigger
           size="default"
-          className="h-9 min-w-[170px] rounded-sm border-gray-200 bg-white text-xs text-slate-500"
+          className="h-9 min-w-[170px] rounded-lg border-gray-200 bg-white text-xs text-slate-500"
         >
           <SelectValue placeholder="Selecione o veiculo" />
         </SelectTrigger>
@@ -77,7 +77,7 @@ export function DashboardFilterBar({
         </SelectContent>
       </Select>
 
-      <div className="grid h-9 grid-cols-2 gap-2 rounded-sm border border-gray-200 bg-white p-1 sm:min-w-[248px]">
+      <div className="grid h-9 grid-cols-2 gap-2 rounded-lg border border-gray-200 bg-white p-1 sm:min-w-[248px]">
         <Input
           type="date"
           value={filters.dateFrom}
