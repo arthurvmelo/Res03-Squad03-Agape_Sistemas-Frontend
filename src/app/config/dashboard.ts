@@ -263,7 +263,7 @@ export const fuelStationsData: ChartData<"bar"> = {
   labels: ["Shell", "Ipiranga", "BR", "Ale"],
   datasets: [
     {
-      data: [4.79, 4.88, 4.95, 5.04],
+      data: [2.79, 4.88, 7.95, 5.04],
       backgroundColor: dashboardPalette.primary,
       borderRadius: 1,
       borderSkipped: false,
@@ -275,11 +275,11 @@ export const fuelStationsData: ChartData<"bar"> = {
 }
 
 export const kilometrageData: ChartData<"bar"> = {
-  labels: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun"],
+  labels: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun","jul"],
   datasets: [
     {
       label: "Frota Empresa",
-      data: [180, 220, 210, 260, 240, 280],
+      data: [180, 220, 210, 260, 240, 280,275],
       backgroundColor: dashboardPalette.primary,
       borderRadius: {
         topLeft: 0,
@@ -293,7 +293,7 @@ export const kilometrageData: ChartData<"bar"> = {
     },
     {
       label: "Frota Terceirizada",
-      data: [80, 95, 90, 110, 105, 120],
+      data: [80, 95, 90, 110, 105, 120,180],
       backgroundColor: dashboardPalette.medium,
       borderRadius: {
         topLeft: 1,
